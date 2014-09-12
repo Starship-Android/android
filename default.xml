@@ -48,6 +48,24 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+
+<!-- START - Starship-common DEVICE  -->
+ <project path="device/starship-common" name="StarshipNexus/android_device_nexus_starship-common" groups="device" />
+<!-- END - Starship-common DEVICE -->
+
+<!-- START - Hammerhead DEVICE, KERNEL, VENDOR -->
+  <project path="device/lge/hammerhead" name="StarshipNexus/android_device_lge_hammerhead" groups="device" />
+  <project path="kernel/lge/hammerhead-starship" name="StarshipNexus/android_kernel_lge_hammerhead-starship" />
+  <project path="vendor/lge/hammerhead" name="StarshipNexus/android_vendor_lge_hammerhead" />
+<!-- END - Hammerhead DEVICE, KERNEL, VENDOR -->
+
+<!-- START - Flo DEVICE, KERNEL, VENDOR -->
+  <project path="device/asus/flo" name="StarshipNexus/android_device_asus_flo" groups="device" />
+  <project path="kernel/asus/flo-starship" name="StarshipNexus/android_kernel_asus_flo-starship" />
+  <project path="vendor/asus/flo" name="StarshipNexus/android_vendor_asus_flo" />
+<!-- END - Flo DEVICE, KERNEL, VENDOR -->
+
+
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
