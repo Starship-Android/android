@@ -50,19 +50,19 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
 
 <!-- START - Starship-common DEVICE  -->
- <project path="device/starship-common" name="StarshipNexus/android_device_nexus_starship-common" groups="device" />
+ <project path="device/starship-common" name="Starship-Android/android_device_starship-common" groups="device" />
 <!-- END - Starship-common DEVICE -->
 
 <!-- START - Hammerhead DEVICE, KERNEL, VENDOR -->
-  <project path="device/lge/hammerhead" name="StarshipNexus/android_device_lge_hammerhead" groups="device" />
-  <project path="kernel/lge/hammerhead-starship" name="StarshipNexus/android_kernel_lge_hammerhead-starship" />
-  <project path="vendor/lge/hammerhead" name="StarshipNexus/android_vendor_lge_hammerhead" />
+  <project path="device/lge/hammerhead" name="Starship-Android/android_device_lge_hammerhead" groups="device" />
+  <project path="kernel/lge/hammerhead-starship" name="Starship-Android/android_kernel_lge_hammerhead-starship" />
+  <project path="vendor/lge/hammerhead" name="Starship-Android/android_vendor_lge_hammerhead" />
 <!-- END - Hammerhead DEVICE, KERNEL, VENDOR -->
 
 <!-- START - Flo DEVICE, KERNEL, VENDOR -->
-  <project path="device/asus/flo" name="StarshipNexus/android_device_asus_flo" groups="device" />
-  <project path="kernel/asus/flo-starship" name="StarshipNexus/android_kernel_asus_flo-starship" />
-  <project path="vendor/asus/flo" name="StarshipNexus/android_vendor_asus_flo" />
+  <project path="device/asus/flo" name="Starship-Android/android_device_asus_flo" groups="device" />
+  <project path="kernel/asus/flo-starship" name="Starship-Android/android_kernel_asus_flo-starship" />
+  <project path="vendor/asus/flo" name="Starship-Android/android_vendor_asus_flo" />
 <!-- END - Flo DEVICE, KERNEL, VENDOR -->
 
 
@@ -312,7 +312,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="StarshipNexus/android_frameworks_base" />
+  <project path="frameworks/base" name="Starship-Android/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
