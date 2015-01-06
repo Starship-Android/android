@@ -56,6 +56,10 @@
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 
+<!-- START - Starship-common DEVICE  -->
+ <project path="device/starship-common" name="Starship-Android/android_device_starship-common" groups="device" />
+<!-- END - Starship-common DEVICE -->
+
 <!-- START - Hammerhead DEVICE, KERNEL, VENDOR -->
 <project path="device/lge/hammerhead" name="Starship-Android/android_device_lge_hammerhead" groups="device" />
 <project path="kernel/lge/hammerhead-starship" name="Starship-Android/android_kernel_lge_hammerhead-starship" />
