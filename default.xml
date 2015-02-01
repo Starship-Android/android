@@ -16,9 +16,6 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" 
            sync-j="4" />
-          
-  <remote name="private"
-          fetch="ssh://git@github.com" />
 
    <project path="build" name="android_aosp_build" groups="pdk,tradefed" remote="Android-AOSP" revision="master_release" >
     <copyfile src="core/root.mk" dest="Makefile" />
