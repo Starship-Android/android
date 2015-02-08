@@ -6,7 +6,7 @@
           review="https://android-review.googlesource.com/" />
 
   <remote name="CyanogenMod"
-          fetch="review.cyanogenmod.org" />
+          fetch="git://github.com/CyanogenMod/" />
   
   <remote name="Android-AOSP"
           fetch="git://github.com/Android-AOSP/" />
