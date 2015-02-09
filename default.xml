@@ -17,7 +17,8 @@
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" 
+           review="https://android-review.googlesource.com/"
+           sync-c="true" 
            sync-j="4" />
 
    <project path="build" name="android_aosp_build" groups="pdk,tradefed" remote="Android-AOSP" revision="master_release" >
@@ -370,7 +371,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead-starship" remote="CyanogenMod" revision="cm-12.0" />
+  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead-starship" remote="Starship-Android" revision="lollipop" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk"  />
