@@ -1,5 +1,5 @@
-Android-AOSP
+Starship Android (AOSP)
 
-repo init -u git://github.com/Android-AOSP/android_aosp_manifest.git -b master_release
+repo init -u git://github.com/Starship-Android/android.git -b lollipop
 
 Repo sync
