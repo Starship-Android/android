@@ -7,6 +7,9 @@
 
   <remote name="CyanogenMod"
           fetch="git://github.com/CyanogenMod/" />
+          
+    <remote name="Starship-Android"
+          fetch="git://github.com/Starship-Android/" />        
   
   <remote name="Android-AOSP"
           fetch="git://github.com/Android-AOSP/" />
@@ -21,7 +24,7 @@
            sync-c="true" 
            sync-j="4" />
 
-   <project path="build" name="android_aosp_build" groups="pdk,tradefed" remote="Android-AOSP" revision="master_release" >
+   <project path="build" name="starship_build" groups="pdk,tradefed" remote="Starship-Android" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
