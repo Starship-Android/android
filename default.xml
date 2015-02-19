@@ -54,7 +54,7 @@
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="device/lge/hammerhead" name="Starship-Android/android_device_lge_hammerhead" />
-  <project path="android/device/starship-common" name="Starship-Android/android_device_starship-common" />
+  <project path="device/starship-common" name="Starship-Android/android_device_starship-common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
