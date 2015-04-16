@@ -584,4 +584,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+  <project path="vendor/lge/hammerhead" name="Starship-Android/android_vendor_lge_hammerhead" />
 </manifest>
