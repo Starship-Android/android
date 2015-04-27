@@ -17,7 +17,7 @@
   <remote name="Starship-Android"
           fetch="git://github.com/Starship-Android/" />
           
-  <default revision="refs/tags/android-5.1.0_r3"
+  <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
