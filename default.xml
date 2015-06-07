@@ -382,9 +382,9 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_bluetooth" groups="pdk-cw-fs" remote="Starship-Android" revision="lollipop" />
+  <project path="packages/apps/Browser" name="android_packages_apps_browser" remote="Starship-Android" revision="lollipop" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_calculator" remote="Starship-Android" revision="lollipop" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
