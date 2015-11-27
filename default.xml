@@ -13,6 +13,9 @@
   
   <remote name="Android-AOSP"
           fetch="git://github.com/Android-AOSP/" />
+          
+  <remote name="zephiK"
+          fetch="git://github.com/zephiK/" />
 
   <remote name="Starship-Android"
           fetch="git://github.com/Starship-Android/" />
