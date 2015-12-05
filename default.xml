@@ -499,5 +499,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor" name="android_vendor_chroma" remote="zephiK" revision="mm6.0" />
+  <project path="vendor/motorola/shamu" name="vendor_motorola_shamu" remote="Starship-Android" revision="M" />
 </manifest>
